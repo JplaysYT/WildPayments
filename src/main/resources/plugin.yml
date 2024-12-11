@@ -1,0 +1,9 @@
+name: WildPayments
+version: '${project.version}'
+main: net.jplays.wildpayments.WildPayments
+api-version: '1.20'
+load: STARTUP
+commands:
+  pay:
+    description: Send a payment to an online/offline player
+    usage: /pay <player> <amount>
